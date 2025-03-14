@@ -150,6 +150,8 @@ COPY files/wp-config.php /var/www/html/wordpress/wp-config.php
 ![Img-11](https://imgur.com/zMu5ijj.png)
 ![Img-12](https://imgur.com/AzpyZ4L.png)
 ![Img-13](https://imgur.com/IOEhhFr.png)
+### Вывод
+В ходе выполнения работы был создан контейнер с именем apache2-php-mariadb, который включает в себя установку и настройку Apache, PHP и MariaDB для работы с WordPress. Научились настраивать монтируемый том для хранения данных MariaDB, что обеспечит сохранность данных при перезапуске контейнера, настраивать веб-сервер Apache с поддержкой PHP, установить и настроить WordPress и запускать сайт WordPress.
 ### Ответы на вопросы
 1. Были изменены следующие файлы конфигурации:
 - ```files/apache2/000-default.conf ```– настройка виртуального хоста Apache.
